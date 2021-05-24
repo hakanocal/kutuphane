@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+
+<div class="wrapper"> 
+
+	<div class="top-line">
+    </div>
+
+	<div class="top">
+    </div>
+    
+        <form id="form1" runat="server">
+
+	<div class="navigation">
+   	 <ul>
+        <li><asp:Button ID="Button1" runat="server" Text="KİTAPLAR" OnClick="Button1_Click" CssClass="button2"/></li>
+        <li><asp:Button ID="Button7" runat="server" Text="ÖDÜNÇ ALDIKLARIM" OnClick="Button7_Click" CssClass="button2"/></li>
+        <li><asp:Button ID="Button2" runat="server" Text="ÜYELER" OnClick="Button2_Click" CssClass="button2"/></li>
+        <li><asp:Button ID="Button3" runat="server" Text="EMANETLER" OnClick="Button3_Click" CssClass="button2"/></li>
+        <li><asp:Button ID="Button8" runat="server" Text="ÖDÜNÇ İSTEKLERİ" OnClick="Button8_Click" CssClass="button2"/></li>
+ 
+
+        <li class="right"><asp:Button ID="Button6" runat="server" Text="ÇIKIŞ" OnClick="Button6_Click" CssClass="button2"/></li>
+        <li class="right"><asp:Button ID="Label1" runat="server" Text="Label" OnClick="Button9_Click" CssClass="giris_yapan"></asp:Button></li>
+        <li class="right"><asp:Button ID="Button4" runat="server" Text="GİRİŞ" OnClick="Button4_Click" CssClass="button2"/></li>
+        <li class="right"><asp:Button ID="Button5" runat="server" Text="KAYIT OL" OnClick="Button5_Click" CssClass="button2"/></li>
+
+      </ul>
+    </div>
+
+    
+    <div class="content">
+        <%--<form id="form2" runat="server">--%>
+            <div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+            <%--</form>--%>
+    </div> 
+        </form>
+            
+</div>
+    
+</body>
+</html>
