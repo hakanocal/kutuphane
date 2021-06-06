@@ -20,6 +20,14 @@ Yetkili olmayan normal üyeler sadece Profil, kitaplar ve ödünç aldıklarım 
 · EMANETLER			: Ödünç verilen kitaplar, kitabın kime ve hangi tarihe kadar  ödünç verildiği, kitabı geri alındı olarak işaretleme ve stoğun otomatik artırılması\
 · ÖDÜNÇ İSTEKLERİ		: Giriş yapan kütüphane yetkisisinin ödünç isteğini ret veya kabul etmesi
 
+#### Giriş bilgileri
+Admin Hesabı1	: TC: 12312312311 Şifre: 123 \
+Admin Hesabı2	: TC: 12312312316 Şifre: 123\
+Üye Hesabı1	: TC: 12312312317 Şifre: 123\
+Üye Hesabı2	: TC: 12312312313 Şifre: 123\
+Üye Hesabı3	: TC: 12312312314 Şifre: 123
+
+
 #### Ekran görüntüleri:
 |  Giriş yap        |   
 |:-------------:|
