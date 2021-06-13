@@ -1,7 +1,7 @@
 # Kütüphane
 ### Kütüphanedeki kitaplar, kayıtlı üyeler ve ödünç verilen kitaplar gibi kütüphane işlemlerinin web sayfası üzerinden gerçekleştirilmesi
 
-C#, ASP.NET, MsSQL 2012 ve Visual Studio 2012 kullanılarak hazırlandı
+C#, ASP.NET ve MsSQL(2012) kullanılarak hazırlandı
 
 
 #### Web sitesinin sorunsuz bir şekilde çalışabilmesi için:
